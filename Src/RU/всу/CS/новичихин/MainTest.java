@@ -2,8 +2,7 @@ package ru.vsu.cs.novichikhin;
 
 class MainTest {
 
-    @org.junit.jupiter.api.Test
-    static void getColor() {
+    static void getPointColor() {
         test(-8, -6, SimpleColor.BLUE);
         test(-4, -6, SimpleColor.ORANGE);
         test(1, -4, SimpleColor.GREEN);
